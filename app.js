@@ -5,6 +5,8 @@ const app = express();
 var http = require('http').Server(app); 
 var io = require('socket.io')(http);
 
+const name = 'mk';
+
 const port=3000
 
 app.use(express.static('public'))
